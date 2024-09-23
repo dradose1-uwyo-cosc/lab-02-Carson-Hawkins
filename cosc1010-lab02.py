@@ -35,10 +35,12 @@ print(f"The {'uw'} was founded in {'year'}")
     # Create two variables x and y and assign them the values 5 and 10 respectively 
     # Complete the following print statements using your variables
     #All math must be done within the braces in the f-strings
-print(f"x + y = {your_variable_here}")
-print(f"x - y = {your_variable_here}")
-print(f"x * y = {your_variable_here}")
-print(f"x / y = {your_variable_here}")
+x = 5
+y = 10 
+print(f"x + y = {'additon'}")
+print(f"x - y = {'subtraction'}")
+print(f"x * y = {'multiplcation'}")
+print(f"x / y = {'division'}")
 
 # String concatenation 
     # Finally we will take a look at string concatenation
@@ -49,3 +51,7 @@ print(f"x / y = {your_variable_here}")
         # last_name, which is your last name
         # space, which is a space character 
     # Use string concatenation to print out your full name 
+first_name= "Carson"
+last_name = "Hawkins"
+space = " "
+print(f'{first_name}{space}{last_name}')
